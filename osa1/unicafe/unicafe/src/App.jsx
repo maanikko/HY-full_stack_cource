@@ -1,12 +1,6 @@
 import { useState } from "react"
 
 const Button = ({ onClick, text }) => <button onClick={onClick}>{text}</button>
-const StatisticLine = ({ text, value }) => (
-  <p>
-    {" "}
-    {text} {value}
-  </p>
-)
 const StatisticRow = ({ text, value }) => (
   <tr>
     <td>{text}</td>
